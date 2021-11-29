@@ -1,0 +1,428 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.menu_part {
+    height: 8599px;
+}
+
+.wrapper {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.menu_background {
+    height: 900px;
+
+}
+
+.background_talent {
+    display: block;
+}
+
+.background_talent:before {
+    z-index: 1;
+    content: '';
+    background-image: url("menu_block.png");
+    background-size: cover;
+    position: absolute;
+    width: 1600px;
+    height: 898px;
+}
+
+.menu_icon_block {
+    float: left;
+    margin-left: 51px;
+    margin-top: 60px;
+}
+
+.menu_icon {
+    display: block;
+}
+
+.menu_icon:before {
+    z-index: 2;
+    content: '';
+    background-image: url("menu_ic.png");
+    background-size: cover;
+    position: absolute;
+    width: 30px;
+    height: 24px;
+}
+
+.talent_text_block {
+    z-index: 2;
+    position: absolute;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-left: 500px;
+    margin-top: 317px;
+    color: white;
+}
+
+.dividing_line {
+    position: absolute;
+    z-index: 2;
+    margin-top: 401px;
+    margin-left: 757px;
+}
+
+.line {
+    width: 86px;
+    border: none;
+    border-top: 2px solid white;
+}
+
+.loren_ipsum {
+    position: absolute;
+    z-index: 2;
+    font-family: "Arial", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    width: 578px;
+    margin-top: 451px;
+    margin-left: 500px;
+    color: white;
+    line-height: 1.5;
+}
+
+.mouse {
+    float: left;
+    margin-left: 734px;
+    margin-top: 791px;
+}
+
+.mouse_icon {
+    display: block;
+}
+
+.mouse_icon:before {
+    content: '';
+    background-image: url("mouse_scroll_icon.png");
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 48px;
+}
+
+.introduction {
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.introduction_title {
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.dividing_line-black {
+    margin-top: 67px;
+}
+
+.black_line {
+    width: 86px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+.introduction_text {
+    text-align: center;
+    font-family: "Amble-light", sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 60px;
+}
+
+.creativity {
+    margin-top: 114px;
+    height: 500px;
+}
+
+.notebook_background {
+    display: block;
+}
+
+.notebook_background:before {
+    content: '';
+    background-image: url("notebook_background.png");
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 1600px;
+    height: 500px;
+}
+
+.pure_creativity {
+    text-align: center;
+    width: 1600px;
+    height: 500px;
+    position: absolute;
+    z-index: 3;
+    font-family: "Amble-Bold", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 235px;
+}
+
+.white_frame {
+    position: absolute;
+    z-index: 2;
+    width: 424px;
+    height: 94px;
+    border: 3px solid white;
+    margin-left: 585px;
+    margin-top: 199px;
+
+}
+
+.examples {
+    margin-top: 115px;
+    height: 1359px;
+}
+
+.examples_title {
+    text-align: center;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+.dividing_line_examples {
+    margin-top: 71px;
+}
+
+.all_link {
+    float: left;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 472px;
+    margin-top: 70px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.branding_link {
+    float: left;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 36px;
+    margin-top: 70px;
+}
+
+.web_link {
+    float: left;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.mobile_link {
+    float: left;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: 30px;
+
+}
+
+.illustrations_link {
+    float: left;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.examples_fields {
+ margin-top: 181px;
+    height: 939px;
+}
+
+.examples_field_top {
+    height: 420px;
+
+}
+
+.perfect_pancakes {
+    float: left;
+}
+
+.pancakes {
+    display: block;
+    margin-left: 215px;
+}
+
+.pancakes:before {
+    content: '';
+    background-image: url("perfect_pancakes.png");
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 420px;
+}
+
+.ocean_blue {
+    float: left;
+    margin-left: 615px;
+}
+
+.ocean {
+    display: block;
+}
+
+.ocean:before {
+    content: '';
+    background-image: url("ocean_blue.png");
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 420px;
+}
+
+.mobile_ui {
+    float: left;
+}
+
+.mobile {
+    display: block;
+    margin-left: 1015px;
+}
+
+.mobile:before {
+    content: '';
+    background-image: url("gmail.png");
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 370px;
+    height: 420px;
+}
+
+.top_mobile_text {
+    position: absolute;
+    z-index: 2;
+    font-family: "BIG JOHN", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bottom_mobile_text {
+    position: absolute;
+    z-index: 2;
+    font-family: "Amble", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.dividing_orange_line {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+}
+
+.orange_line {
+    width: 86px;
+    border: none;
+    border-top: 2px solid #d87843;
+}
+
+.examples_field_bottom {
+    margin-top: 20px;
+}
+
+.portico_field {
+    float: left;
+}
+
+.portico {
+    display: block;
+    margin-left: 215px;
+}
+
+.portico:before {
+    content: '';
+    background-image: url("portico.png");
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 420px;
+}
+.smash_field {
+    float: left;
+}
+
+.smash {
+    display: block;
+    margin-left: 615px;
+}
+
+.smash:before {
+    content: '';
+    background-image: url("smash.png");
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 420px;
+}
+.salt_field {
+    float: left;
+}
+
+.salt {
+    display: block;
+    margin-left: 1015px;
+}
+
+.salt:before {
+    content: '';
+    background-image: url("salt.png");
+    background-size: cover;
+    position: absolute;
+    width: 370px;
+    height: 420px;
+}
+.show_more {
+    margin-left: 615px;
+
+}
+.show_me_more {
+    text-align: center;
+    text-decoration: none;
+}
+.show_more_text {
+    font-family: "Amble",sans-serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 900;
+    border: 3px solid black;
+    width: 364px;
+    height: 54px;
+    line-height: 54px;
+}

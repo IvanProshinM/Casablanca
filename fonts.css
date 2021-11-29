@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'LuxuryRoyaleJF';
+    src:url("fonts/big_john/BIG JOHN.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'LuxuryRoyaleJF';
+    src:url("fonts/Amble/Amble-light.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'LuxuryRoyaleJF';
+    src:url("fonts/Amble/Amble-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
