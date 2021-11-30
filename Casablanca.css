@@ -59,11 +59,11 @@ html, body {
 .talent_text_block {
     z-index: 2;
     position: absolute;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 48px;
     text-transform: uppercase;
-    margin-left: 500px;
-    margin-top: 317px;
+    margin-left: 475px;
+    margin-top: 310px;
     color: white;
 }
 
@@ -83,14 +83,14 @@ html, body {
 .loren_ipsum {
     position: absolute;
     z-index: 2;
-    font-family: "Arial", sans-serif;
+    font-family: "amble_regular", sans-serif;
     font-size: 22px;
     text-align: center;
-    width: 578px;
-    margin-top: 451px;
-    margin-left: 500px;
+    margin-top: 447px;
+    margin-left: 485px;
     color: white;
     line-height: 1.5;
+    letter-spacing: 2px;
 }
 
 .mouse {
@@ -115,18 +115,18 @@ html, body {
 
 .introduction {
     text-align: center;
-    margin-top: 120px;
+    margin-top: 114px;
 
 }
 
 .introduction_title {
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 30px;
     text-transform: uppercase;
 }
 
 .dividing_line-black {
-    margin-top: 67px;
+    margin-top: 73px;
 }
 
 .black_line {
@@ -137,7 +137,7 @@ html, body {
 
 .introduction_text {
     text-align: center;
-    font-family: "Amble-light", sans-serif;
+    font-family: "amble_light", sans-serif;
     font-size: 22px;
     line-height: 36px;
     margin-top: 60px;
@@ -168,7 +168,7 @@ html, body {
     height: 500px;
     position: absolute;
     z-index: 3;
-    font-family: "Amble-Bold", sans-serif;
+    font-family: "amble_bold", sans-serif;
     color: white;
     font-size: 30px;
     margin-top: 235px;
@@ -191,7 +191,7 @@ html, body {
 
 .examples_title {
     text-align: center;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 30px;
     text-transform: uppercase;
 
@@ -203,7 +203,7 @@ html, body {
 
 .all_link {
     float: left;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 900;
@@ -218,7 +218,7 @@ html, body {
 
 .branding_link {
     float: left;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 900;
@@ -228,7 +228,7 @@ html, body {
 
 .web_link {
     float: left;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 900;
@@ -238,7 +238,7 @@ html, body {
 
 .mobile_link {
     float: left;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 900;
@@ -249,7 +249,7 @@ html, body {
 
 .illustrations_link {
     float: left;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 900;
@@ -325,7 +325,7 @@ html, body {
 .top_mobile_text {
     position: absolute;
     z-index: 2;
-    font-family: "BIG JOHN", sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
@@ -432,7 +432,7 @@ html, body {
 }
 
 .help_block {
-
+    height: 500px;
 }
 
 .help_background {
@@ -452,14 +452,16 @@ html, body {
     width: 1600px;
     height: 500px;
 }
+
 .help_field {
     position: absolute;
     z-index: 2;
     margin-left: 586px;
     margin-top: 200px;
 }
+
 .help_field_text {
-    font-family: "Amble",sans-serif;
+    font-family: "Amble", sans-serif;
     font-size: 30px;
     color: white;
     width: 424px;
@@ -467,7 +469,456 @@ html, body {
     border: 3px solid white;
     line-height: 94px;
 }
+
 .help_field_link {
     text-align: center;
     text-decoration: none;
+}
+
+.clients_block {
+    text-align: center;
+    height: 500px;
+    background-color: #f4f4f4;
+}
+
+.clients_title {
+    padding-top: 112px;
+    font-family: "big_john", sans-serif;
+    font-size: 30px;
+}
+
+.dividing_line_clients {
+    margin-top: 75px;
+}
+
+.clients_logo {
+
+}
+
+.google_logo {
+    float: left;
+    margin-left: 215px;
+    margin-top: 96px;
+}
+
+.google {
+    display: block;
+}
+
+.google:before {
+    content: '';
+    background-image: url("google_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 140px;
+    height: 48px;
+}
+
+.samsung_logo {
+    float: left;
+    margin-left: 240px;
+    margin-top: 96px;
+}
+
+.samsung {
+    display: block;
+}
+
+.samsung:before {
+    content: '';
+    background-image: url("Samsung_Logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 136px;
+    height: 45px;
+}
+
+.flickr_logo {
+    float: left;
+    margin-left: 235px;
+    margin-top: 96px;
+}
+
+.flickr {
+    display: block;
+}
+
+.flickr:before {
+    content: '';
+    background-image: url("Flickr_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 126px;
+    height: 38px;
+}
+
+.foursquare_logo {
+    float: left;
+    margin-left: 243px;
+    margin-top: 96px;
+}
+
+.foursquare {
+    display: block;
+}
+
+.foursquare:before {
+    content: '';
+    background-image: url("foursquare-logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 175px;
+    height: 48px;
+}
+
+.pinterest_logo {
+    float: left;
+    margin-left: 269px;
+    margin-top: 95px;
+}
+
+.pinterest {
+    display: block;
+}
+
+.pinterest:before {
+    content: '';
+    background-image: url("pinterest_logo_red.png");
+    background-size: cover;
+    position: absolute;
+    width: 182px;
+    height: 46px;
+}
+
+.about_us_block {
+    text-align: center;
+    height: 785px;
+    padding-top: 115px;
+}
+
+.about_us_title {
+
+    font-family: "big_john", sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.dividing_about_line {
+    margin-top: 71px;
+}
+
+.about_text {
+    margin-top: 67px;
+    font-family: "amble_light", sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.employee_block {
+
+}
+
+.employee_1 {
+    float: left;
+    margin-top: 75px;
+    margin-left: 216px;
+
+}
+
+.link_symbol {
+    position: absolute;
+}
+
+.john {
+
+}
+
+.john_ceo {
+    display: block;
+}
+
+.john_ceo:before {
+    content: '';
+    background-image: url("ceo_john.png");
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    width: 270px;
+    height: 360px;
+}
+
+.link_symbol {
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 16px;
+    z-index: 2;
+}
+
+.name_john {
+    position: absolute;
+    z-index: 2;
+    font-family: "big_john", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-left: 97px;
+    margin-top: 275px;
+    text-transform: uppercase;
+}
+
+.position_john {
+    position: absolute;
+    z-index: 2;
+    font-family: "amble_bold", sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 315px;
+    margin-left: 80px;
+}
+
+.employee_2 {
+    float: left;
+    margin-top: 74px;
+    margin-left: 300px;
+}
+
+.employee_2_photo {
+    display: block;
+}
+
+.employee_2_photo:before {
+    content: '';
+    background-image: url("employee_1.png");
+    background-size: cover;
+    position: absolute;
+    width: 270px;
+    height: 360px;
+
+}
+
+.employee_3 {
+    float: left;
+    margin-top: 74px;
+    margin-left: 300px;
+}
+
+.employee_3_photo {
+    display: block;
+}
+
+.employee_3_photo:before {
+    content: '';
+    background-image: url("employee_2.png");
+    background-size: cover;
+    position: absolute;
+    width: 270px;
+    height: 360px;
+}
+
+.hiring_field {
+    float: left;
+    border: 1px solid black;
+    width: 268px;
+    height: 358px;
+    margin-top: 75px;
+    margin-left: 300px;
+}
+
+.apply_field {
+    margin-top: 41px;
+    margin-left: 42px;
+    width: 177px;
+    height: 54px;
+    border: 3px solid black;
+    line-height: 54px;
+
+}
+
+.apply_link {
+    text-align: center;
+    text-decoration: none;
+}
+
+.apply_text {
+    font-family: "amble_bold", sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.hiring_text {
+    font-family: "big_john", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 89px;
+    line-height: 1.5;
+}
+
+.dividing_hiring_line {
+    margin-top: 38px;
+}
+
+.movie_block {
+    height: 500px;
+}
+
+.movie_background {
+
+    display: block;
+}
+
+.movie_background:before {
+    content: '';
+    background-image: url("movie_background.png");
+    background-size: cover;
+    position: absolute;
+    width: 1600px;
+    height: 500px;
+}
+
+.movie_start {
+    display: block;
+}
+
+.movie_start:before {
+    content: '';
+    background-image: url("play_icon.png");
+    background-size: cover;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: 219px;
+}
+
+.reason_to_choose {
+    text-align: center;
+    height: 960px;
+}
+
+.choose_us_title {
+    margin-top: 112px;
+    font-family: "big_john", sans-serif;
+    font-size: 30px;
+}
+
+.dividing_line_choice {
+    margin-top: 75px;
+}
+
+.choose_us_text {
+    font-family: "amble_light", sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 66px;
+}
+
+.apple_advertising_block {
+    margin-top: 94px;
+    margin-left: 232px;
+}
+
+.iphone_block {
+    float: left;
+    position: relative;
+}
+
+.iphone_5c {
+    display: block;
+    float: left;
+}
+
+.iphone_5c:before {
+    content: '';
+    background-image: url("iphone_5c_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 72px;
+    height: 151px;
+    left: 50%;
+    margin-left: -36px;
+}
+
+.iphone_block_title {
+    margin-top: 191px;
+    font-family: "amble_regular", sans-serif;
+    font-size: 24px;
+}
+
+.iphone_block_text {
+    font-family: "amble_regular", sans-serif;
+    font-size: 16px;
+    margin-top: 29px;
+    line-height: 30px;
+}
+.ipad_block {
+    float: left;
+    position: relative;
+    margin-left: 62px;
+}
+
+.ipad_air {
+    display: block;
+    float: left;
+}
+
+.ipad_air:before {
+    content: '';
+    background-image: url("ipad_air_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 170px;
+    height: 120px;
+    left: 50%;
+    margin-left: -85px;
+    margin-top: 30px;
+}
+
+.ipad_block_title {
+    margin-top: 191px;
+    font-family: "amble_regular", sans-serif;
+    font-size: 24px;
+}
+
+.ipad_block_text {
+    font-family: "amble_regular", sans-serif;
+    font-size: 16px;
+    margin-top: 29px;
+    line-height: 30px;
+}
+.macbook_block {
+    float: left;
+    position: relative;
+    margin-left: 62px;
+}
+
+.macbook_pro {
+    display: block;
+    float: left;
+}
+
+.macbook_pro:before {
+    content: '';
+    background-image: url("macbook_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 228px;
+    height: 131px;
+    left: 50%;
+    margin-left: -114px;
+    margin-top: 20px;
+}
+
+.macbook_block_title {
+    margin-top: 191px;
+    font-family: "amble_regular", sans-serif;
+    font-size: 24px;
+}
+
+.macbook_block_text {
+    font-family: "amble_regular", sans-serif;
+    font-size: 16px;
+    margin-top: 29px;
+    line-height: 30px;
 }
