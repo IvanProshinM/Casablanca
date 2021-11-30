@@ -794,7 +794,7 @@ html, body {
 
 .reason_to_choose {
     text-align: center;
-    height: 960px;
+    height: 850px;
 }
 
 .choose_us_title {
@@ -852,6 +852,7 @@ html, body {
     margin-top: 29px;
     line-height: 30px;
 }
+
 .ipad_block {
     float: left;
     position: relative;
@@ -887,6 +888,7 @@ html, body {
     margin-top: 29px;
     line-height: 30px;
 }
+
 .macbook_block {
     float: left;
     position: relative;
@@ -921,4 +923,57 @@ html, body {
     font-size: 16px;
     margin-top: 29px;
     line-height: 30px;
+}
+
+.slide_circles {
+    margin-left: 782px;
+
+}
+
+.circle_left {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: #d87843;
+    border-radius: 50%;
+    margin-top: 64px;
+}
+
+.circle_right {
+    float: left;
+    width: 12px;
+    height: 12px;
+    background: #d5d5d5;
+    border-radius: 50%;
+    margin-top: 64px;
+    margin-left: 13px;
+}
+
+.quote_block {
+    height: 500px;
+}
+
+.quote {
+
+}
+
+.quote_background {
+    display: block;
+}
+
+.quote_background:before {
+    content: '';
+    background-image: url("quote_background.png");
+    background-size: cover;
+    position: absolute;
+    width: 1600px;
+    height: 500px;
+}
+
+.quote_text {
+    text-align: center;
+    font-family: "amble_bold", sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-top: 30px;
 }
