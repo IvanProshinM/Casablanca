@@ -322,34 +322,39 @@ html, body {
     height: 420px;
 }
 
-.top_mobile_text {
+.mobile_ui_top_text {
     position: absolute;
+    color: white;
     z-index: 2;
     font-family: "big_john", sans-serif;
     font-size: 18px;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: white;
+    margin-left: 135px;
+    margin-top: 158px;
 }
 
-.bottom_mobile_text {
+.mobile_ui_bottom_text {
     position: absolute;
+    color: white;
     z-index: 2;
-    font-family: "Amble", sans-serif;
+    font-family: "amble_regular", sans-serif;
     font-size: 24px;
-    color: white;
+    margin-left: 120px;
+    margin-top: 200px;
 }
 
-.dividing_orange_line {
-    position: absolute;
-    z-index: 2;
-    margin-top: 10px;
+.dividing_line_mobile_ui {
+
 }
 
 .orange_line {
-    width: 86px;
-    border: none;
-    border-top: 2px solid #d87843;
+    position: absolute;
+    z-index: 2;
+    size: 2px;
+    width: 46px;
+    color: #d87843 ;
+    margin-left: 162px;
+    margin-top: 256px;
+
 }
 
 .examples_field_bottom {
@@ -976,4 +981,308 @@ html, body {
     font-size: 32px;
     color: white;
     margin-top: 30px;
+}
+
+.get_in_touch_block {
+    height: 385px;
+    text-align: center;
+    border: 1px solid white;
+    padding-top: 110px;
+}
+
+.get_in_touch_title {
+    font-family: "big_john", sans-serif;
+    font-size: 30px;
+}
+
+.get_in_touch_dividing_line {
+    margin-top: 75px;
+}
+
+.get_in_touch_text {
+    font-family: "amble_light", sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 65px;
+}
+
+.feedback {
+    height: 500px;
+}
+
+.location {
+    float: left;
+    width: 615px;
+    height: 500px;
+    background-color: #f2f2f2;
+}
+
+.location_title {
+    font-family: "big_john", sans-serif;
+    font-size: 24px;
+    margin-top: 115px;
+    padding-left: 217px;
+}
+
+.location_address {
+    font-family: "amble_light", sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 33px;
+    font-style: italic;
+    padding-left: 217px;
+}
+
+.location_logos {
+    margin-left: 215px;
+    margin-top: 27px;
+}
+
+.twitter_logo {
+    float: left;
+    margin-top: 2px;
+}
+
+.twitter {
+    display: block;
+}
+
+.twitter:before {
+    content: '';
+    background-image: url("twitter.png");
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 20px;
+}
+
+.facebook_logo {
+    float: left;
+    margin-left: 54px;
+}
+
+.facebook {
+    display: block;
+}
+
+.facebook:before {
+    content: '';
+    background-image: url("facebook_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 14px;
+    height: 25px;
+}
+
+.linkedin_logo {
+    float: left;
+    margin-left: 98px;
+}
+
+.linkedin {
+    display: block;
+}
+
+.linkedin:before {
+    content: '';
+    background-image: url("linkedin.png");
+    background-size: cover;
+    position: absolute;
+    width: 24px;
+    height: 25px;
+}
+
+.vimeo_logo {
+    float: left;
+    margin-left: 146px;
+}
+
+.vimeo {
+    display: block;
+}
+
+.vimeo:before {
+    content: '';
+    background-image: url("vimeo.png");
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 22px;
+}
+
+.behance_logo {
+    float: left;
+    margin-left: 194px;
+    margin-top: 6px;
+}
+
+.behance {
+    display: block;
+}
+
+.behance:before {
+    content: '';
+    background-image: url("behance.png");
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 17px;
+}
+
+.letter_fill_block {
+    float: left;
+    background-color: #e4e4e4;
+    width: 985px;
+    height: 500px;
+
+}
+
+.name_input_block input {
+    background-color: #e4e4e4;
+    border: none;
+    border-bottom: 3px solid #afafaf;
+    font-family: "amble_regular", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.name_input_block {
+    float: left;
+    margin-top: 115px;
+    margin-left: 103px;
+
+}
+
+.name_input:focus::placeholder {
+    opacity: 0;
+}
+
+.email_input_block input {
+    float: left;
+    margin-top: 115px;
+    margin-left: 65px;
+    font-family: "amble_regular", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    background-color: #e4e4e4;
+    border: none;
+    border-bottom: 3px solid #afafaf;
+}
+
+.email_input:focus::placeholder {
+    opacity: 0;
+}
+
+.message_input_block input {
+    margin-top: 113px;
+    margin-left: 103px;
+    background-color: #e4e4e4;
+    border: none;
+    border-bottom: 3px solid #afafaf;
+    font-family: "amble_regular", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.message_input:focus::placeholder {
+    opacity: 0;
+}
+
+.send_button {
+    text-align: center;
+    width: 177px;
+    height: 54px;
+    border: 3px solid black;
+    font-family: "amble_bold", sans-serif;
+    font-size: 24px;
+    margin-left: 588px;
+    margin-top: 40px;
+}
+
+.send_link_text {
+    margin-top: 15px;
+
+}
+
+.send_link {
+    text-decoration: none;
+    color: black;
+}
+
+.web_designer_block {
+    position: relative;
+    width: 1600px;
+    height: 360px;
+    background-color: #222222;
+
+}
+
+.designer_logo {
+    float: left;
+    margin-left: 610px;
+    margin-top: 102px;
+}
+
+.designer {
+    display: block;
+}
+
+.designer:before {
+    content: '';
+    background-image: url("designers_logo.png");
+    background-size: cover;
+    position: absolute;
+    width: 81px;
+    height: 80px;
+}
+
+.designer_name {
+    position: absolute;
+    font-family: "amble_light", sans-serif;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 725px;
+    margin-top: 123px;
+}
+
+.designer_skills {
+    position: absolute;
+    text-align: center;
+    font-family: "amble_light", sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-left: 725px;
+    margin-top: 152px;
+}
+
+.rights_reserved {
+    padding-top: 248px;
+    padding-left: 627px;
+}
+
+.year {
+    float: left;
+    color: white;
+    font-family: "amble_regular", sans-serif;
+    font-size: 16px;
+}
+
+.samir {
+    float: left;
+    font-family: "amble_bold", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #d87843;
+    margin-left: 4px;
+
+}
+
+.rights {
+    float: left;
+    color: white;
+    font-family: "amble_regular", sans-serif;
+    font-size: 16px;
+    margin-left: 7px;
 }
