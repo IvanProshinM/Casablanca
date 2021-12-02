@@ -86,11 +86,11 @@ html, body {
     font-family: "amble_regular", sans-serif;
     font-size: 22px;
     text-align: center;
-    margin-top: 447px;
+    margin-top: 448px;
     margin-left: 485px;
     color: white;
-    line-height: 1.5;
-    letter-spacing: 2px;
+    line-height: 30px;
+    letter-spacing: 1px;
 }
 
 .mouse {
@@ -115,7 +115,7 @@ html, body {
 
 .introduction {
     text-align: center;
-    margin-top: 114px;
+    margin-top: 112px;
 
 }
 
@@ -126,7 +126,7 @@ html, body {
 }
 
 .dividing_line-black {
-    margin-top: 73px;
+    margin-top: 75px;
 }
 
 .black_line {
@@ -140,11 +140,11 @@ html, body {
     font-family: "amble_light", sans-serif;
     font-size: 22px;
     line-height: 36px;
-    margin-top: 60px;
+    margin-top: 62px;
 }
 
 .creativity {
-    margin-top: 114px;
+    margin-top: 112px;
     height: 500px;
 }
 
@@ -171,7 +171,8 @@ html, body {
     font-family: "amble_bold", sans-serif;
     color: white;
     font-size: 30px;
-    margin-top: 235px;
+    margin-top: 236px;
+    letter-spacing: 1px;
 }
 
 .white_frame {
@@ -186,7 +187,7 @@ html, body {
 }
 
 .examples {
-    margin-top: 115px;
+    margin-top: 113px;
 }
 
 .examples_title {
@@ -198,7 +199,7 @@ html, body {
 }
 
 .dividing_line_examples {
-    margin-top: 71px;
+    margin-top: 73px;
 }
 
 .all_link {
@@ -207,8 +208,8 @@ html, body {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 900;
-    margin-left: 472px;
-    margin-top: 70px;
+    margin-left: 471px;
+    margin-top: 69px;
 }
 
 .link {
@@ -426,7 +427,7 @@ html, body {
 }
 
 .show_more_text {
-    font-family: "Amble", sans-serif;
+    font-family: "amble_bold", sans-serif;
     font-size: 24px;
     color: black;
     font-weight: 900;
@@ -434,6 +435,7 @@ html, body {
     width: 364px;
     height: 54px;
     line-height: 54px;
+    letter-spacing: 1px;
 }
 
 .help_block {
@@ -466,13 +468,14 @@ html, body {
 }
 
 .help_field_text {
-    font-family: "Amble", sans-serif;
+    font-family: "amble_bold", sans-serif;
     font-size: 30px;
     color: white;
     width: 424px;
     height: 94px;
     border: 3px solid white;
     line-height: 94px;
+    letter-spacing: 1px;
 }
 
 .help_field_link {
@@ -598,7 +601,7 @@ html, body {
 .about_us_block {
     text-align: center;
     height: 785px;
-    padding-top: 115px;
+    padding-top: 114px;
 }
 
 .about_us_title {
@@ -609,14 +612,14 @@ html, body {
 }
 
 .dividing_about_line {
-    margin-top: 71px;
+    margin-top: 74px;
 }
 
 .about_text {
-    margin-top: 67px;
+    margin-top: 68px;
     font-family: "amble_light", sans-serif;
     font-size: 22px;
-    line-height: 1.5;
+    line-height: 36px;
 }
 
 .employee_block {
@@ -625,7 +628,7 @@ html, body {
 
 .employee_1 {
     float: left;
-    margin-top: 75px;
+    margin-top: 65px;
     margin-left: 216px;
 
 }
@@ -677,13 +680,13 @@ html, body {
     font-family: "amble_bold", sans-serif;
     font-size: 18px;
     color: white;
-    margin-top: 315px;
+    margin-top: 313px;
     margin-left: 80px;
 }
 
 .employee_2 {
     float: left;
-    margin-top: 74px;
+    margin-top: 65px;
     margin-left: 300px;
 }
 
@@ -703,7 +706,7 @@ html, body {
 
 .employee_3 {
     float: left;
-    margin-top: 74px;
+    margin-top: 65px;
     margin-left: 300px;
 }
 
@@ -725,18 +728,17 @@ html, body {
     border: 1px solid black;
     width: 268px;
     height: 358px;
-    margin-top: 75px;
+    margin-top: 65px;
     margin-left: 300px;
 }
 
 .apply_field {
-    margin-top: 41px;
+    margin-top: 40px;
     margin-left: 42px;
     width: 177px;
     height: 54px;
     border: 3px solid black;
     line-height: 54px;
-
 }
 
 .apply_link {
@@ -755,7 +757,7 @@ html, body {
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 900;
-    margin-top: 89px;
+    margin-top: 86px;
     line-height: 1.5;
 }
 
@@ -803,7 +805,7 @@ html, body {
 }
 
 .choose_us_title {
-    margin-top: 112px;
+    margin-top: 113px;
     font-family: "big_john", sans-serif;
     font-size: 30px;
 }
@@ -816,11 +818,11 @@ html, body {
     font-family: "amble_light", sans-serif;
     font-size: 22px;
     line-height: 36px;
-    margin-top: 66px;
+    margin-top: 65px;
 }
 
 .apple_advertising_block {
-    margin-top: 94px;
+    margin-top: 95px;
     margin-left: 232px;
 }
 
@@ -861,7 +863,7 @@ html, body {
 .ipad_block {
     float: left;
     position: relative;
-    margin-left: 62px;
+    margin-left: 61px;
 }
 
 .ipad_air {
@@ -931,7 +933,7 @@ html, body {
 }
 
 .slide_circles {
-    margin-left: 782px;
+    margin-left: 781px;
 
 }
 
@@ -941,7 +943,7 @@ html, body {
     height: 12px;
     background: #d87843;
     border-radius: 50%;
-    margin-top: 64px;
+    margin-top: 65px;
 }
 
 .circle_right {
@@ -950,7 +952,7 @@ html, body {
     height: 12px;
     background: #d5d5d5;
     border-radius: 50%;
-    margin-top: 64px;
+    margin-top: 65px;
     margin-left: 13px;
 }
 
@@ -980,7 +982,7 @@ html, body {
     font-family: "amble_bold", sans-serif;
     font-size: 32px;
     color: white;
-    margin-top: 30px;
+    margin-top: 32px;
 }
 
 .get_in_touch_block {
@@ -1144,13 +1146,14 @@ html, body {
     font-family: "amble_regular", sans-serif;
     font-size: 18px;
     font-style: italic;
+   padding-bottom: 13px;
+    padding-left: 28px;
 }
 
 .name_input_block {
     float: left;
-    margin-top: 115px;
+    margin-top: 104px;
     margin-left: 103px;
-
 }
 
 .name_input:focus::placeholder {
@@ -1159,14 +1162,16 @@ html, body {
 
 .email_input_block input {
     float: left;
-    margin-top: 115px;
-    margin-left: 65px;
+    margin-top: 104px;
+    margin-left: 49px;
     font-family: "amble_regular", sans-serif;
     font-size: 18px;
     font-style: italic;
     background-color: #e4e4e4;
     border: none;
     border-bottom: 3px solid #afafaf;
+    padding-bottom: 13px;
+    padding-left: 28px;
 }
 
 .email_input:focus::placeholder {
@@ -1174,7 +1179,7 @@ html, body {
 }
 
 .message_input_block input {
-    margin-top: 113px;
+    margin-top: 102px;
     margin-left: 103px;
     background-color: #e4e4e4;
     border: none;
@@ -1182,6 +1187,8 @@ html, body {
     font-family: "amble_regular", sans-serif;
     font-size: 18px;
     font-style: italic;
+    padding-bottom: 13px;
+    padding-left: 28px;
 }
 
 .message_input:focus::placeholder {
