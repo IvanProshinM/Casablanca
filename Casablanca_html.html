@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>We've got the talent</title>
-    <link rel="stylesheet" type="text/css" href="Casablanca.css">
-    <link rel="stylesheet" type="text/css" href="CSS%20reset.css">
-    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="style/Casablanca.css">
+    <link rel="stylesheet" type="text/css" href="style/CSS%20reset.css">
+    <link rel="stylesheet" type="text/css" href="style/fonts.css">
+
 </head>
 <body>
 <div class="menu_part">
-    <div class="wrapper">
-        <div class="menu_background">
-            <a class="background_talent" href="#"></a>
+    <div class="menu_background">
+        <a class="background_talent"></a>
+        <div class="wrapper">
             <div class="menu_icon_block">
                 <a class="menu_icon" href="#"></a>
             </div>
@@ -31,36 +32,38 @@
                 <a class="mouse_icon" href="#"></a>
             </div>
         </div>
-        <div class="introduction">
-            <div class="wrapper">
-                <div class="introduction_title">
-                    <p>introduction</p>
-                </div>
-                <div class="dividing_line-black">
-                    <hr class="black_line">
-                </div>
-                <div class="introduction_text">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt
-                        ut
-                        labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco
-                        laboris.
-                    </p>
-                </div>
+    </div>
+    <div class="introduction">
+        <div class="wrapper">
+            <div class="introduction_title">
+                <p>introduction</p>
+            </div>
+            <div class="dividing_line-black">
+                <hr class="black_line">
+            </div>
+            <div class="introduction_text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt
+                    ut
+                    labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco
+                    laboris.
+                </p>
             </div>
         </div>
-        <div class="creativity">
-            <div class="wrapper">
-                <a class="notebook_background" href="#"></a>
-                <div class="pure_creativity">
-                    <p>Pure Creativity.</p>
-                </div>
-                <div class="white_frame">
+    </div>
+    <div class="creativity">
+        <a class="notebook_background" href="#"></a>
+        <div class="wrapper">
+            <div class="pure_creativity">
+                <p>Pure Creativity.</p>
+            </div>
+            <div class="white_frame">
 
-                </div>
             </div>
         </div>
-        <div class="examples">
+    </div>
+    <div class="examples">
+        <div class="wrapper">
             <div class="examples_title">
                 <p>some of our work</p>
             </div>
@@ -87,21 +90,31 @@
             <div class="examples_fields">
                 <div class="examples_field_top">
                     <div class="perfect_pancakes">
-                        <a class="pancakes" href="#"></a>
+                        <a class="pancakes" href="#">
+                            <div class="pancakes_over">
+                                <p class="text_smuzi">50 к в сумке у папы</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="ocean_blue">
-                        <a class="ocean" href="#"></a>
+                        <a class="ocean" href="#">
+                            <div class="pancakes_over">
+                                <p class="text_smuzi">в сумке у папы</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="mobile_ui">
                         <a class="mobile" href="#">
-                            <div class="mobile_ui_top_text">
-                                <p>mobile ui</p>
-                            </div>
-                            <div class="mobile_ui_bottom_text">
-                                <p>Google Mail</p>
-                            </div>
-                            <div class="dividing_line_mobile_ui">
-                                <hr class="orange_line">
+                            <div class="mobile_over">
+                                <div class="mobile_ui_top_text">
+                                    <p>mobile ui</p>
+                                </div>
+                                <div class="mobile_ui_bottom_text">
+                                    <p>Google Mail</p>
+                                </div>
+                                <div class="dividing_line_mobile_ui">
+                                    <hr class="orange_line">
+                                </div>
                             </div>
                         </a>
 
@@ -109,13 +122,25 @@
                 </div>
                 <div class=" clearfix examples_field_bottom">
                     <div class="portico_field">
-                        <a class="portico" href="#"></a>
+                        <a class="portico" href="#">
+                            <div class="pancakes_over">
+                                <p class="text_smuzi">Порошок на стол упал</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="smash_field">
-                        <a class="smash" href="#"></a>
+                        <a class="smash" href="#">
+                            <div class="pancakes_over">
+                                <p class="text_smuzi">Одолжи пятак, пап</p>
+                            </div>
+                        </a>
                     </div>
                     <div class="salt_field">
-                        <a class="salt" href="#"></a>
+                        <a class="salt" href="#">
+                            <div class="pancakes_over">
+                                <p class="text_smuzi">бодяженная кока - минус пятак</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -129,22 +154,26 @@
                 </a>
             </div>
         </div>
-        <div class=" clearfix help_block">
-            <div class="help_background">
-                <a class="help_background_image"></a>
-            </div>
+    </div>
+    <div class=" clearfix help_block">
+        <div class="help_background">
+            <a class="help_background_image"></a>
+        </div>
+        <div class="wrapper">
             <div class="help_field">
-                <a class=" help_field_link" href="#">
+                <a class=" help_field_link" href="#" onclick="click_help()">
                     <div class="help_field_text">
                         <p>We're here to help.</p>
                     </div>
                 </a>
             </div>
         </div>
-        <div class="clients_block">
-            <div class="clients_title">
-                <p>our clients</p>
-            </div>
+    </div>
+    <div class="clients_block">
+        <div class="clients_title">
+            <p>our clients</p>
+        </div>
+        <div class="wrapper">
             <div class="dividing_line_clients">
                 <hr class="black_line">
             </div>
@@ -166,10 +195,12 @@
                 </div>
             </div>
         </div>
-        <div class="about_us_block">
-            <div class="about_us_title">
-                <p>about us</p>
-            </div>
+    </div>
+    <div class="about_us_block">
+        <div class="about_us_title">
+            <p>about us</p>
+        </div>
+        <div class="wrapper">
             <div class="dividing_about_line">
                 <hr class="black_line">
             </div>
@@ -216,16 +247,20 @@
                 </div>
             </div>
         </div>
-        <div class="movie_block">
-            <a class="movie_background" href="#"></a>
+    </div>
+    <div class="movie_block">
+        <a class="movie_background" href="#"></a>
+        <div class="wrapper">
             <div class="movie_start_button">
                 <a class="movie_start" href="#"></a>
             </div>
         </div>
-        <div class="reason_to_choose">
-            <div class="choose_us_title">
-                <p>why choose us</p>
-            </div>
+    </div>
+    <div class="reason_to_choose">
+        <div class="choose_us_title">
+            <p>why choose us</p>
+        </div>
+        <div class="wrapper">
             <div class="dividing_line_choice">
                 <hr class="black_line">
             </div>
@@ -277,83 +312,83 @@
                 <div class="circle_right"></div>
             </div>
         </div>
-        <div class="quote_block">
-            <div class="quote">
-                <a class="quote_background" href="#"></a>
-            </div>
-            <a class="quote_link" href="#">
-                <div class="white_frame">
-                    <div class="quote_text">
-                        <p>Get a quote now.</p>
-                    </div>
-                </div>
-            </a>
+    </div>
+    <div class="quote_block">
+        <div class="quote">
+            <a class="quote_background" href="#"></a>
         </div>
-        <div class="get_in_touch_block">
-            <div class="get_in_touch_title">
-                <p>get in touch</p>
-            </div>
-            <div class="get_in_touch_dividing_line">
-                <hr class="black_line">
-            </div>
-            <div class="get_in_touch_text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore
-                    et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris.</p>
-            </div>
+        <div class="wrapper">
+            <button type="submit" name="button_quote" class="quote_click" id="add_button" onclick="link_text()">
+                Get a quote now.
+            </button>
         </div>
-        <div class="feedback">
-            <div class="location">
-                <div class="location_title">
-                    <p>our location</p>
-                </div>
-                <div class="location_address">
-                    <p>174 Mimosa ST. NW <br>Casablanca, MA 20370<br>(212) 123 456 7<br>Samir Timezguida</p>
-                </div>
-                <div class="location_logos">
-                    <div class="twitter_logo">
-                        <a class="twitter" href="https://twitter.com/"></a>
-                    </div>
-                    <div class="facebook_logo">
-                        <a class="facebook" href="#"></a>
-                    </div>
-                    <div class="linkedin_logo">
-                        <a class="linkedin" href="#"></a>
-                    </div>
-                    <div class="vimeo_logo">
-                        <a class="vimeo" href="#"></a>
-                    </div>
-                    <div class="behance_logo">
-                        <a class="behance" href="#"></a>
-                    </div>
-                </div>
+    </div>
+    <div class="get_in_touch_block">
+        <div class="get_in_touch_title">
+            <p>get in touch</p>
+        </div>
+        <div class="get_in_touch_dividing_line">
+            <hr class="black_line">
+        </div>
+        <div class="get_in_touch_text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                labore
+                et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="location">
+            <div class="location_title">
+                <p>our location</p>
             </div>
-            <div class="letter_fill_block">
-                <div class="name_input_block">
-                    <label>
-                        <input class="name_input" type="text" size=30 placeholder="Name">
-                    </label>
+            <div class="location_address">
+                <p>174 Mimosa ST. NW <br>Casablanca, MA 20370<br>(212) 123 456 7<br>Samir Timezguida</p>
+            </div>
+            <div class="location_logos">
+                <div class="twitter_logo">
+                    <a class="twitter" href="https://twitter.com/"></a>
                 </div>
-                <div class="email_input_block">
-                    <label>
-                        <input class="email_input" type="text" size="30" placeholder="Email">
-                    </label>
+                <div class="facebook_logo">
+                    <a class="facebook" href="#"></a>
                 </div>
-                <div class="message_input_block">
-                    <label>
-                        <input class="message_input" type="text" size="68" placeholder="Message">
-                    </label>
+                <div class="linkedin_logo">
+                    <a class="linkedin" href="#"></a>
                 </div>
-                <div class="send_button">
-                    <a class="send_link" href="#">
-                        <div class="send_link_text">
-                            <p>Send</p>
-                        </div>
-                    </a>
+                <div class="vimeo_logo">
+                    <a class="vimeo" href="#"></a>
+                </div>
+                <div class="behance_logo">
+                    <a class="behance" href="#"></a>
                 </div>
             </div>
         </div>
-        <div class="web_designer_block">
+        <div class="letter_fill_block">
+            <div class="name_input_block">
+                <label>
+                    <input class="name_input" type="text" size=30 placeholder="Name">
+                </label>
+            </div>
+            <div class="email_input_block">
+                <label>
+                    <input class="email_input" type="text" size="30" placeholder="Email">
+                </label>
+            </div>
+            <div class="message_input_block">
+                <label>
+                    <input class="message_input" type="text" size="68" placeholder="Message">
+                </label>
+            </div>
+            <div class="send_button">
+                <a class="send_link" href="#">
+                    <div class="send_link_text">
+                        <p>Send</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="web_designer_block">
+        <div class="wrapper">
             <div class="designer_logo">
                 <a class="designer" href="#"></a>
             </div>
@@ -370,9 +405,8 @@
             </div>
         </div>
     </div>
-
 </div>
 
-
+<script src="Casablanca.js"></script>
 </body>
 </html>

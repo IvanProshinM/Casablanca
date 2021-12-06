@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'big_john';
+    src:url("fonts/big_john/BIG JOHN.otf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'amble_light';
+    src:url("fonts/Amble/Amble-light.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'amble_bold';
+    src:url("fonts/Amble/Amble-Bold.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'amble_regular';
+    src:url("fonts/Amble/Amble-Regular.ttf");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
