@@ -293,25 +293,28 @@ html, body {
     width: 370px;
     height: 420px;
 }
+
 .pancakes_over {
     position: absolute;
     float: left;
     width: 370px;
     height: 420px;
     background: black;
-    font-family: "big_john",sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 14px;
     color: white;
     opacity: 0;
 }
+
 .pancakes_over:hover {
     text-align: center;
     opacity: 0.8;
 
 }
+
 .text_smuzi {
     margin-top: 170px;
-    font-family: "big_john",sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 34px;
     color: white;
 }
@@ -352,22 +355,25 @@ html, body {
     width: 370px;
     height: 420px;
 }
+
 .mobile_over {
     position: absolute;
     float: left;
     width: 370px;
     height: 420px;
     background: black;
-    font-family: "big_john",sans-serif;
+    font-family: "big_john", sans-serif;
     font-size: 14px;
     color: white;
     opacity: 0;
 }
+
 .mobile_over:hover {
     text-align: center;
     opacity: 0.8;
 
 }
+
 .mobile_ui_top_text {
     position: absolute;
     color: white;
@@ -397,7 +403,7 @@ html, body {
     z-index: 2;
     size: 2px;
     width: 46px;
-    color: #d87843 ;
+    color: #d87843;
     margin-left: 162px;
     margin-top: 256px;
 
@@ -687,18 +693,18 @@ html, body {
 }
 
 .john_ceo {
-    display: block;
+    position: absolute;
+    float: left;
+    width: 270px;
+    height: 360px;
+    opacity: 0.3;
 }
 
-.john_ceo:before {
-    content: '';
-    background-image: url("../img/ceo_john.png");
-    background-size: cover;
-    position: absolute;
-    z-index: 1;
+.employee_background {
     width: 270px;
     height: 360px;
 }
+
 
 .link_symbol {
     position: absolute;
@@ -714,7 +720,18 @@ html, body {
     font-size: 24px;
     font-weight: 900;
     color: white;
-    margin-left: 97px;
+    margin-left: 85px;
+    margin-top: 275px;
+    text-transform: uppercase;
+}
+.name_persi {
+    position: absolute;
+    z-index: 2;
+    font-family: "big_john", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-left: 95px;
     margin-top: 275px;
     text-transform: uppercase;
 }
@@ -726,7 +743,16 @@ html, body {
     font-size: 18px;
     color: white;
     margin-top: 313px;
-    margin-left: 80px;
+    margin-left: 100px;
+}
+.position_persi {
+    position: absolute;
+    z-index: 2;
+    font-family: "amble_bold", sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 313px;
+    margin-left: 70px;
 }
 
 .employee_2 {
@@ -741,12 +767,12 @@ html, body {
 
 .employee_2_photo:before {
     content: '';
-    background-image: url("../img/employee_1.png");
+    background-image: url("../img/team-dolenko.png");
     background-size: cover;
     position: absolute;
     width: 270px;
     height: 360px;
-
+    opacity: 0.2;
 }
 
 .employee_3 {
@@ -761,11 +787,28 @@ html, body {
 
 .employee_3_photo:before {
     content: '';
-    background-image: url("../img/employee_2.png");
+    background-image: url("../img/team-persi.png");
     background-size: cover;
     position: absolute;
     width: 270px;
     height: 360px;
+    opacity: 0.2;
+}
+
+.team_OverField {
+    position: absolute;
+    float: left;
+    width: 270px;
+    height: 360px;
+    background-color: black;
+    opacity: 0;
+    z-index: 3;
+
+}
+
+.team_OverField:hover {
+    text-align: center;
+    opacity: 0.8;
 }
 
 .hiring_field {
@@ -1027,7 +1070,7 @@ html, body {
     width: 430px;
     height: 98px;
     background: transparent;
-    font-family: "amble_bold",sans-serif;
+    font-family: "amble_bold", sans-serif;
     font-size: 30px;
     color: white;
     margin-left: 586px;
@@ -1198,7 +1241,7 @@ html, body {
     font-family: "amble_regular", sans-serif;
     font-size: 18px;
     font-style: italic;
-   padding-bottom: 13px;
+    padding-bottom: 13px;
     padding-left: 28px;
 }
 
